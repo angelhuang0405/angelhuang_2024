@@ -1,2 +1,2 @@
 # angelhuang_2024
-Personal website
+Personal website with Nextjs
