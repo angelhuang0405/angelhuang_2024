@@ -1,3 +1,16 @@
+# Angelhuang-2022
+Angel Huang, a passionate product designer from Taipei Taiwan.
+
+### Built With
+
+- [React.js](https://reactjs.org)
+
+## Installation
+```
+yarn install
+```
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
