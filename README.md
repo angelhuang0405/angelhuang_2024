@@ -1,5 +1,5 @@
-# Kenhuang-2022
-Ken Huang, a passionate front-end developer / product designer from Taipei Taiwan.
+# Angelhuang-2022
+Angel Huang, a passionate product designer from Taipei Taiwan.
 
 ### Built With
 
