@@ -4,6 +4,7 @@ Angel Huang, a passionate product designer from Taipei Taiwan.
 ### Built With
 
 - [React.js](https://reactjs.org)
+- [Next.js](https://nextjs.org/)
 
 ## Installation
 ```
