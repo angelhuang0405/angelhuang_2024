@@ -70,7 +70,6 @@ export const fetcher = async (url, { setState, method }) => {
 
 export const dateConvert = (date, format) => {
   if (!date) return;
-  let result;
   date = date.toString();
   const _year = date.slice(0, 4);
   const _month = date.slice(4, 6);
