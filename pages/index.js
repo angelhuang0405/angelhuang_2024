@@ -6,6 +6,7 @@ import Link from "next/link";
 import styles from "./index.module.scss";
 
 export default function Home() {
+  // animation circles
   const circles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const [articles, setArticles] = useState([]);
   const [portfolio, setPortfolio] = useState([]);
