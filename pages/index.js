@@ -6,6 +6,7 @@ import Link from "next/link";
 import styles from "./index.module.scss";
 
 export default function Home() {
+  // animation circles
   const circles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const [articles, setArticles] = useState([]);
   const [portfolio, setPortfolio] = useState([]);
@@ -28,15 +29,15 @@ export default function Home() {
   }, []);
 
   return (
-    <Layout title="Ken Huang | Front-end Developer, Product Designer & Mentor">
+    <Layout title="Angel Huang | Product Designer & Mentor">
       <Head>
-        <title>Ken Huang | Front-end Developer, Product Designer & Mentor</title>
+        <title>Angel Huang | Product Designer & Mentor</title>
         <meta name="description" content="I design and code beautifully simple things, and I love what I do." />
       </Head>
       <section className={`pt-64 lg:pb-32 text-center lg:h-[70vh] relative ${styles.index}`}>
         <Container className="space-y-16">
           <h1 className="font-light lg:text-4xl leading-relaxed text-black w-2/3 mx-auto">
-          Hi, I am Ken Huang, a passionate Front-end engineer / product designer from Taipei, Taiwan.
+          Hi, I am Angel Huang, a passionate Front-end engineer / product designer from Taipei, Taiwan.
           </h1>
           <img src="/images/about/kenhuang_avatar.png" alt="Ken Huang" className="w-32 mx-auto" />
           <p className="text-xl text-red-500">Design & Coding Everywhere!</p>
