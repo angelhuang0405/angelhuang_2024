@@ -43,6 +43,7 @@ export const codeMapping = ({ key, data, field = "name" }) => {
 };
 
 export const fetcher = async (url, { setState, method }) => {
+  // should refactor with a callback function
   const req = await fetch(url)
     .then(async (res) => {
       return {
