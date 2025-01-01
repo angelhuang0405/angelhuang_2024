@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import portfolioSpec from 'constants';
 
-export const CategoryBar = ({ name = "", data = [], method }) => {
+export const CategoryBar = ({ method }) => {
   const _data = portfolioSpec.portfolioSpec;
   const [category, setCategory] = useState(null);
   const [isSSR, setIsSSR] = useState(true);
