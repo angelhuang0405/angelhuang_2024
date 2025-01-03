@@ -25,6 +25,7 @@ const links = [
 ];
 
 export const Footer = () => {
+  // Footer component
   return (
     <footer className="text-sm text-gray-500 text-center lg:py-20 py-8 space-y-8">
       <p className="lg:text-xl text-black">Feel free to reach out, I’d love to chat with you!</p>
