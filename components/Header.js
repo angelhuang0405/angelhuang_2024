@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 // });
 
 export const Header = () => {
+  // Header component
   const [open, setOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
   const [scrollTop, setScrollTop] = useState(0);

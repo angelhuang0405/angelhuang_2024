@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 export const Gallery = ({ photos, className }) => {
+  // gallery component
   return (
     <div className={`grid grid-cols-6 gap-4 ${className}`}>
       {photos.map((photo) => {
