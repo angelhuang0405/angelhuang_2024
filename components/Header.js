@@ -1,14 +1,11 @@
-// import { Shalimar } from "@next/font/google";
 import { Container } from "components";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 
-// const font = Shalimar({
-//   weight: "400"
-// });
 
 export const Header = () => {
+  // Header component
   const [open, setOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
   const [scrollTop, setScrollTop] = useState(0);
@@ -33,10 +30,6 @@ export const Header = () => {
       label: "Mentorship",
       path: "/mentorship",
     },
-    // {
-    //   label: "Contact",
-    //   path: "/contact",
-    // },
   ];
 
   const router = useRouter();
