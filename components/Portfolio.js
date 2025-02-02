@@ -1,7 +1,6 @@
 import { Typography } from "components";
 import Link from "next/link";
 import { Tag } from "./Tag";
-import { dateConvert } from "utils";
 
 export const PortfolioSummary = ({ tags, date, title, duration, myRole, responsibility, company }) => {
   return (
