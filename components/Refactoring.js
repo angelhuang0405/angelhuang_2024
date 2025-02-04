@@ -1,6 +1,7 @@
 import { Button } from "./Button"
 
 export const Refactoring = ({ type }) => {
+  // TODO: not implemented yet
   if (type === "password") {
     return (
       <div className="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
