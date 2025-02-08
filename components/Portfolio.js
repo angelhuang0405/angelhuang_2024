@@ -2,6 +2,7 @@ import { Typography } from "components";
 import Link from "next/link";
 import { Tag } from "./Tag";
 
+// unused
 export const PortfolioSummary = ({ tags, date, title, duration, myRole, responsibility, company }) => {
   return (
     <div className="rounded-lg -mt-24 mb-24 relative bg-white lg:p-10 p-4 shadow-lg">
@@ -32,6 +33,7 @@ export const PortfolioSummary = ({ tags, date, title, duration, myRole, responsi
   )
 }
 
+// unused
 export const PortfolioOverview = ({ overview }) => {
   return (
     <div className="py-8">
@@ -50,6 +52,7 @@ export const PortfolioOverview = ({ overview }) => {
   )
 }
 
+// unused
 export const PortfolioProcess = ({ data }) => {
   return (
     <div className={`grid lg:grid-cols-${data.length} gap-8`}>
