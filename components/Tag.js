@@ -1,4 +1,6 @@
 export const Tag = ({ children, variant="black" }) => {
+
+  // variant: black, gray, white`
   
   if (Array.isArray(children)) {
     return (
