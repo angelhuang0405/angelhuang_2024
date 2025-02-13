@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import Link from "next/link";
 import { Icon } from "components";
 
@@ -25,7 +26,7 @@ export const Footer = () => {
       url: "https://www.instagram.com/kenbluerr/",
     },
   ], []);
-  
+
   return (
     <footer className="text-sm text-gray-500 text-center lg:py-20 py-8 space-y-8">
       <p className="lg:text-xl text-black">Feel free to reach out, I’d love to chat with you!</p>
