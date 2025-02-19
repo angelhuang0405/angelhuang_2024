@@ -2,6 +2,7 @@ import { Icon } from "components";
 import Link from "next/link";
 import { forwardRef, memo } from "react";
 
+// button component
 export const Button = memo(
   forwardRef(
     (
