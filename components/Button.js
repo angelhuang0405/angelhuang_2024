@@ -29,6 +29,7 @@ export const Button = memo(
             .join(" "),
         ].join(" ");
       };
+      // button variants styles
       const variants = {
         primary:
           "cursor-pointer py-3 px-8 bg-black hover:bg-gray-700 text-white flex-shrink-0 rounded-full h-12",
